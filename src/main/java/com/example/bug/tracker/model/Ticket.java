@@ -25,6 +25,7 @@ public class Ticket {
     private User user;
 
     @NotBlank(message = "description is required")
+    @Lob
     private String description;
 
 
